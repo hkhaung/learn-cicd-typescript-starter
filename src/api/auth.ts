@@ -1,5 +1,6 @@
 import { IncomingHttpHeaders } from "http";
-console.lo
+console.l
+
 export function getAPIKey(headers: IncomingHttpHeaders): string | null {
   const authHeader = headers["authorization"];
   if (!authHeader) {
