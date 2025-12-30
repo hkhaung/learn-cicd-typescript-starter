@@ -3,6 +3,6 @@ import {getAPIKey} from '../api/auth.ts';
 
 describe("getAPIKey", () => {
   test("test get api key no auth header", () => {
-    expect(getAPIKey({})).toBe('a');
+    expect(getAPIKey({})).toBe(null);
   })
 })
